@@ -1,4 +1,3 @@
-import FirebaseKeys from "./config";
 import firebase from "firebase";
 
 class Fire {
