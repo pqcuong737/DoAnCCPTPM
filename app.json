@@ -11,7 +11,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/love.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -26,7 +26,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "DoAnCongCuPhatTrienPhanMem",
-    "githubUrl": "https://github.com/pqcuong737/DoAnCCPTPM"
+    "description": "Đồ án công cụ phát triển phần mèm\n\nThành viên nhóm:\n_Trần Võ Tố Quyên\n_Nguyễn Quang Huy\n_Trần Minh Tuấn\n_Võ Minh Duy\n_Phan Quốc Cường",
+    "githubUrl": "https://github.com/pqcuong737/DoAnCCPTPM.git"
   }
 }
