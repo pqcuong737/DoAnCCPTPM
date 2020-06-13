@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Image, FlatList } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import moment from "moment";
 
+
 // temporary data until we pull from Firebase
 posts = [
     {
@@ -11,7 +12,7 @@ posts = [
         text:
             "Thiên nhiên là phép màu mà tạo hóa ban ơn cho cuộc sống, hàng cây xanh tốt cùng chim chóc nhảy múa trên cành khiến ta yêu đời hơn cho phép.",
         timestamp: 1569109273726,
-        avatar: require("../assets/tempAvatar.jpg"),
+        avatar: require("../assets/tempAvatar1.jpg"),
         image: require("../assets/tempImage1.jpg")
     },
     {
@@ -20,7 +21,7 @@ posts = [
         text:
             "Hoa hướng dương dạy tôi một điều: chỉ cần quay mặt về phía ánh mặt trời, cố gắng hướng về phía trước, mỗi ngày sẽ trở nên đơn giản lại tốt đẹp.",
         timestamp: 1569109273726,
-        avatar: require("../assets/tempAvatar.jpg"),
+        avatar: require("../assets/tempAvatar2.jpg"),
         image: require("../assets/tempImage2.jpg")
     },
     {
@@ -29,7 +30,7 @@ posts = [
         text:
             "Thời gian là miễn phí nhưng nó vô giá. Bạn không thể sở hữu nó, nhưng bạn có thể sử dụng nó. Bạn có thể dùng nó, nhưng bạn không thể giữ nó. Một khi bạn làm mất nó, bạn sẽ không thể nào có lại được nó.",
         timestamp: 1569109273726,
-        avatar: require("../assets/tempAvatar.jpg"),
+        avatar: require("../assets/tempAvatar3.jpg"),
         image: require("../assets/tempImage3.jpg")
     },
     {
@@ -38,8 +39,17 @@ posts = [
         text:
             "Trong rượu, ta tìm thấy trí tuệ. Trong bia, ta thấy được sức mạnh. Trong nước lọc, ta phát hiện vi khuẩn, và cuối cùng trong ăn uống, ta tìm thấy niềm vui.",
         timestamp: 1569109273726,
-        avatar: require("../assets/tempAvatar.jpg"),
+        avatar: require("../assets/tempAvatar4.jpg"),
         image: require("../assets/tempImage4.jpg")
+    },
+	{
+        id: "5",
+        name: "Minh Duy",
+        text:
+            "hello",
+        timestamp: 1569109273726,
+        avatar: require("../assets/tempAvatar5.jpg"),
+        image: require("../assets/tempImage5.jpg")
     }
 ];
 
