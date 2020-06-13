@@ -7,36 +7,36 @@ import moment from "moment";
 posts = [
     {
         id: "1",
-        name: "Joe McKay",
+        name: "Tố Quyên",
         text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Thiên nhiên là phép màu mà tạo hóa ban ơn cho cuộc sống, hàng cây xanh tốt cùng chim chóc nhảy múa trên cành khiến ta yêu đời hơn cho phép.",
         timestamp: 1569109273726,
         avatar: require("../assets/tempAvatar.jpg"),
         image: require("../assets/tempImage1.jpg")
     },
     {
         id: "2",
-        name: "Karyn Kim",
+        name: "Minh Tuấn",
         text:
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Hoa hướng dương dạy tôi một điều: chỉ cần quay mặt về phía ánh mặt trời, cố gắng hướng về phía trước, mỗi ngày sẽ trở nên đơn giản lại tốt đẹp.",
         timestamp: 1569109273726,
         avatar: require("../assets/tempAvatar.jpg"),
         image: require("../assets/tempImage2.jpg")
     },
     {
         id: "3",
-        name: "Emerson Parsons",
+        name: "Quốc Cường",
         text:
-            "Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.",
+            "Thời gian là miễn phí nhưng nó vô giá. Bạn không thể sở hữu nó, nhưng bạn có thể sử dụng nó. Bạn có thể dùng nó, nhưng bạn không thể giữ nó. Một khi bạn làm mất nó, bạn sẽ không thể nào có lại được nó.",
         timestamp: 1569109273726,
         avatar: require("../assets/tempAvatar.jpg"),
         image: require("../assets/tempImage3.jpg")
     },
     {
         id: "4",
-        name: "Kathie Malone",
+        name: "Quang Huy",
         text:
-            "At varius vel pharetra vel turpis nunc eget lorem. Lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor. Adipiscing tristique risus nec feugiat in fermentum.",
+            "Trong rượu, ta tìm thấy trí tuệ. Trong bia, ta thấy được sức mạnh. Trong nước lọc, ta phát hiện vi khuẩn, và cuối cùng trong ăn uống, ta tìm thấy niềm vui.",
         timestamp: 1569109273726,
         avatar: require("../assets/tempAvatar.jpg"),
         image: require("../assets/tempImage4.jpg")
