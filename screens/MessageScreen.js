@@ -5,7 +5,7 @@ export default class MessageScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Thông báo</Text>
+                <Text>Tin nhắn</Text>
             </View>
         );
     }
