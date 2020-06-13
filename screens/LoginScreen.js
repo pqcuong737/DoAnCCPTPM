@@ -40,7 +40,7 @@ export default class LoginScreen extends React.Component {
                     source={require("../assets/loginLogo.png")}
                     style={{ marginTop: -110, alignSelf: "center" }}
                 ></Image>
-                <Text style={styles.greeting}>{`Hello again.\nWelcome back.`}</Text>
+                <Text style={styles.greeting}>{`Xin chào.\nChào mừng đến với SocialApp.`}</Text>
 
                 <View style={styles.errorMessage}>
                     {this.state.errorMessage && <Text style={styles.error}>{this.state.errorMessage}</Text>}
@@ -48,7 +48,7 @@ export default class LoginScreen extends React.Component {
 
                 <View style={styles.form}>
                     <View>
-                        <Text style={styles.inputTitle}>Email Address</Text>
+                        <Text style={styles.inputTitle}>Email </Text>
                         <TextInput
                             style={styles.input}
                             autoCapitalize="none"
@@ -58,7 +58,7 @@ export default class LoginScreen extends React.Component {
                     </View>
 
                     <View style={{ marginTop: 32 }}>
-                        <Text style={styles.inputTitle}>Password</Text>
+                        <Text style={styles.inputTitle}>Mật khẩu</Text>
                         <TextInput
                             style={styles.input}
                             secureTextEntry
