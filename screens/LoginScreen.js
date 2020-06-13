@@ -29,7 +29,7 @@ export default class LoginScreen extends React.Component {
             <View style={styles.container}>
                 <StatusBar barStyle="light-content"></StatusBar>
                 <Image
-                    source={require("../assets/authHeader.png")}
+                    source={require("../assets/authHeader2.png")}
                     style={{ marginTop: -176, marginLeft: -50 }}
                 ></Image>
                 <Image
@@ -37,9 +37,10 @@ export default class LoginScreen extends React.Component {
                     style={{ position: "absolute", bottom: -325, right: -225 }}
                 ></Image>
                 <Image
-                    source={require("../assets/loginLogo.png")}
-                    style={{ marginTop: -110, alignSelf: "center" }}
+                    source={require("../assets/loveLogo.png")}
+                    style={{ marginTop: -80, alignSelf: "center" }}
                 ></Image>
+				
                 <Text style={styles.greeting}>{`Xin chào.\nChào mừng đến với SocialApp.`}</Text>
 
                 <View style={styles.errorMessage}>
@@ -78,7 +79,7 @@ export default class LoginScreen extends React.Component {
                     onPress={() => this.props.navigation.navigate("Register")}
                 >
                     <Text style={{ color: "#414959", fontSize: 13 }}>
-                        New to SocialApp? <Text style={{ fontWeight: "500", color: "#E9446A" }}>Đăng ký</Text>
+                        Cần tài khoản mới? <Text style={{ fontWeight: "500", color: "#03396C" }}>Đăng ký</Text>
                     </Text>
                 </TouchableOpacity>
             </View>
@@ -91,7 +92,7 @@ const styles = StyleSheet.create({
         flex: 1
     },
     greeting: {
-        marginTop: -32,
+        marginTop: 30,
         fontSize: 18,
         fontWeight: "400",
         textAlign: "center"
@@ -114,7 +115,7 @@ const styles = StyleSheet.create({
     },
     button: {
         marginHorizontal: 30,
-        backgroundColor: "#E9446A",
+        backgroundColor: "#03396C",
         borderRadius: 4,
         height: 52,
         alignItems: "center",

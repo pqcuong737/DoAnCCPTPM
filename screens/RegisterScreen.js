@@ -43,7 +43,7 @@ export default class RegisterScreen extends React.Component {
             <View style={styles.container}>
                 <StatusBar barStyle="light-content"></StatusBar>
                 <Image
-                    source={require("../assets/authHeader.png")}
+                    source={require("../assets/authHeader2.png")}
                     style={{ marginTop: -116, marginLeft: -50 }}
                 ></Image>
                 <Image
@@ -53,7 +53,7 @@ export default class RegisterScreen extends React.Component {
                 <TouchableOpacity style={styles.back} onPress={() => this.props.navigation.goBack()}>
                     <Ionicons name="ios-arrow-round-back" size={32} color="#FFF"></Ionicons>
                 </TouchableOpacity>
-                <View style={{ position: "absolute", top: 64, alignItems: "center", width: "100%" }}>
+                <View style={{ position: "absolute", top: 100, alignItems: "center", width: "100%"}}>
                     <Text style={styles.greeting}>{`Xin chào!\nBắt đầu đăng kí.`}</Text>
                     <TouchableOpacity style={styles.avatarPlaceholder} onPress={this.handlePickAvatar}>
                         <Image source={{ uri: this.state.user.avatar }} style={styles.avatar} />
@@ -108,10 +108,10 @@ export default class RegisterScreen extends React.Component {
 
                 <TouchableOpacity
                     style={{ alignSelf: "center", marginTop: 32 }}
-                    onPress={() => this.props.navigation.navigate("Đăng nhập")}
+                    onPress={() => this.props.navigation.navigate("Login")}
                 >
                     <Text style={{ color: "#414959", fontSize: 13 }}>
-                        Already have an account? <Text style={{ fontWeight: "500", color: "#E9446A" }}>Đăng nhập</Text>
+                        Bạn đã có tài khoản? <Text style={{ fontWeight: "500", color: "#03396C" }}>Đăng nhập</Text>
                     </Text>
                 </TouchableOpacity>
             </View>
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: "500",
         textAlign: "center",
-        color: "#FFF"
+        color: "#8A8F9E"
     },
     form: {
         marginBottom: 48,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     },
     button: {
         marginHorizontal: 30,
-        backgroundColor: "#E9446A",
+        backgroundColor: "#03396C",
         borderRadius: 4,
         height: 52,
         alignItems: "center",
