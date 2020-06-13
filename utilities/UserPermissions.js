@@ -7,7 +7,7 @@ class UserPermissions {
             const { status } = await Permissions.askAsync(Permissions.CAMERA_ROLL);
 
             if (status != "granted") {
-                alert("We need permission to use your camera!!!");
+                alert("Ứng dụng cần được cấp phép để sử dụng camera!!!");
             }
         }
     };

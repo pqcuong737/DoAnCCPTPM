@@ -42,16 +42,16 @@ export default class ProfileScreen extends React.Component {
                 </View>
                 <View style={styles.statsContainer}>
                     <View style={styles.stat}>
-                        <Text style={styles.statAmount}>21</Text>
-                        <Text style={styles.statTitle}>Posts</Text>
+                        <Text style={styles.statAmount}>500</Text>
+                        <Text style={styles.statTitle}>Bài đăng</Text>
                     </View>
                     <View style={styles.stat}>
-                        <Text style={styles.statAmount}>981</Text>
-                        <Text style={styles.statTitle}>Followers</Text>
+                        <Text style={styles.statAmount}>1.1M</Text>
+                        <Text style={styles.statTitle}>Người theo dõi</Text>
                     </View>
                     <View style={styles.stat}>
-                        <Text style={styles.statAmount}>63</Text>
-                        <Text style={styles.statTitle}>Following</Text>
+                        <Text style={styles.statAmount}>2k</Text>
+                        <Text style={styles.statTitle}>Đang theo dõi</Text>
                     </View>
                 </View>
 
