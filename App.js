@@ -102,7 +102,7 @@ export default createAppContainer(
             Auth: AuthStack
         },
         {
-            initialRouteName: "Loading"
+            initialRouteName: "Đang xử lý"
         }
     )
 );
